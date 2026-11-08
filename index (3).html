@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOMPEDIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/flower.jpg">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="images/logo2.jpg" alt="logo">
+            <div class="logo-text">
+                <h1>Discover the Beauty of Every Bloom </h1>
+                <p>Explore the world of flowers, their beauty, characteristics, and unique stories</p>
+            </div>
+        </div>
+    </header>
+
+     <nav>
+        <ul class="bunga">
+            <li class="nav-item active"><a href="index.html" class> Home</a></li>
+            <li class="nav-item">
+                <a href="Explore.html" class="nav-link"> Explore <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="FlowerFacts.html">Flower Facts</a></li>
+                    <li><a href="FlowerCareGuide.html"> Flower Care Guide</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="Bloompedia-Gallery.html" class="nav-link"> Bloompedia Gallery</a></li>
+            <li class="nav-item"><a href="registration.html" class="nav-link"></i> Registration</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h2 class="section-title">BLOOMPEDIA</h2>
+            <div class="profile-card">
+                <h3>Welcome to Bloompedia!</h3>
+                <p>Bloompedia merupakan website informasi yang memperkenalkan berbagai jenis bunga. Melalui website ini, pengunjung dapat mengenal karakteristik, warna, keunikan, serta fakta menarik dari setiap bunga. Kami berharap Bloompedia dapat menjadi sumber informasi yang menarik bagi siapa saja yang ingin mengenal keindahan dunia bunga.</p>
+            </div>
+
+            <h2 class="section-title">Popular Flowers</h2>
+            <div class="card-grid">
+
+                <!--Tulips-->
+                <div class="product-card">
+                    <img src="images/tulips.jpg" 
+                         alt="Tulips">
+                    <h4>Tulips</h4>
+                </div>
+
+                <!--Roses-->
+                <div class="product-card">
+                    <img src="images/roses.jpg" 
+                         alt="Roses">
+                    <h4>Roses</h4>
+                </div>
+
+                <!--Daisies-->
+                <div class="product-card">
+                     <img src="images/daisies.jpg" 
+                         alt="Daisies">
+                    <h4>Daisies</h4>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="margin-top: 30px;">Flower Updates</h2>
+            <ul class="announcement-list">
+                <li class="announcement-item"> <strong>Explore the World of Flowers:</strong> Explore the beauty of flowers and discover interesting information about different flower species.</li>
+                <li class="announcement-item"> <strong>Discover New Flowers!</strong> <p>Learn about Tulips, Roses, Daisies, and many other beautiful flowers in our collection.</p></li>
+            </ul>
+
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="articles-grid">
+                <div class="article-card">
+                    <div><img src="images/rddai.jpg" alt="" class="article-img"></div>
+                    <div class="article-body">
+                        <h4>Getting to Know Tulips</h4>
+                        <p>For the Love of Tulips</p>
+                        <button class="btn-readmore" ><a href="https://www.botanic.cam.ac.uk/for-the-love-of-tulips/">Read More</a></button>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <div><img src="images/rdroses.jpg" alt="" class="article-img"></div>
+                    <div class="article-body">
+                        <h4>The Beauty of Roses</h4>
+                        <p>Know Your Roses</p>
+                        <button class="btn-readmore" ><a href="https://www.botanic.cam.ac.uk/know-your-roses/">Read More</a></button>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <div><img src="images/rdtulips.jpg" alt="" class="article-img"></div>
+                    <div class="article-body">
+                        <h4>Getting to Know Daisies</h4>
+                        <p>Fun Facts About Daisies</p>
+                        <button class="btn-readmore" ><a href="https://www.chicagobotanic.org/plant-information/plant-profiles/daisies">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <div class="widget clock-widget">
+                <div id="clock">00:00:00</div>
+                <div id="date">Loading...</div>
+            </div>
+            <div class="widget">
+                <h3 class="widget-title"><i class="fa-solid fa-video"></i> Flower Video</h3>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2hgrhg8FVZ0?si=MOVWOtIP46bsRPSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bloompedia. All Rights Reserved.</p>
+        <p>Your Guide to the Wonderful World of Flowers. <strong>BLOOMPEDIA</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

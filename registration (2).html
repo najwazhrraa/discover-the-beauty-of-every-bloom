@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION | BLOOMPEDIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/flower.jpg">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="images/logo2.jpg" alt="logo">
+            <div class="logo-text">
+                <h1>Discover the Beauty of Every Bloom </h1>
+                <p>Explore the world of flowers, their beauty, characteristics, and unique stories</p>
+            </div>
+        </div>
+    </header>
+
+   <nav>
+        <ul class="bunga">
+            <li class="nav-item active"><a href="index.html" class="nav-link"> Home</a></li>
+            <li class="nav-item">
+                <a href="Explore.html" class="nav-link"> Explore <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+                <ul class="dropdown-menu">
+                     <li><a href="FlowerFacts.html">Flower Facts</a></li>
+                     <li><a href="FlowerCareGuide.html"> Flower Care Guide</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="Bloompedia-Gallery.html" class="nav-link"> Bloompedia Gallery</a></li>
+            <li class="nav-item"><a href="registration.html" class="nav-link"></i> Registration</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            
+<section id="registration" class="registration-section">
+
+    <div class="registration-heading">
+        <h2>Join Bloompedia</h2>
+        <p>
+            Become part of our flower-loving community!
+            Sign up to discover interesting flower facts,
+            explore beautiful flowers, and receive the latest updates.
+        </p>
+    </div>
+
+    <div class="registration-container">
+
+        <div class="registration-info">
+            <h3>Welcome to Our Community!</h3>
+
+            <p>
+                Discover the beauty of flowers with Bloompedia.
+                Register now and explore a world full of colors,
+                interesting facts, and simple gardening tips.
+            </p>
+
+            <ul>
+                <li>🌷 Discover different types of flowers</li>
+                <li>🌸 Learn interesting flower facts</li>
+                <li>🌿 Get simple flower care tips</li>
+                <li>🌹 Explore the latest flower articles</li>
+            </ul>
+        </div>
+
+        <div class="registration-form">
+            <h3>Create Your Account</h3>
+
+            <form id="registrationForm">
+
+                <label for="regName">Full Name</label>
+                <input type="text" id="regName"
+                    placeholder="Enter your full name" required>
+
+                <label for="regEmail">Email Address</label>
+                <input type="email" id="regEmail"
+                    placeholder="Enter your email address" required>
+
+                <label for="favoriteFlower">Favorite Flower</label>
+                <select id="favoriteFlower" required>
+                    <option value="">Choose your favorite flower</option>
+                    <option>Tulips</option>
+                    <option>Roses</option>
+                    <option>Daisies</option>
+                </select>
+
+                <label>What are you interested in?</label>
+
+                <div class="interest-options">
+                    <label>
+                        <input type="checkbox" name="interest" value="Flower Facts">
+                        Flower Facts
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="Flower Care Guide">
+                        Flower Care Guide
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="Latest Articles">
+                        Latest Articles
+                    </label>
+                </div>
+
+                <button type="submit">Register Now</button>
+
+                <p id="registrationMessage"></p>
+
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+        </main>
+
+        <aside>
+            <div class="widget clock-widget">
+                <div id="clock">00:00:00</div>
+                <div id="date">Loading...</div>
+            </div>
+            <div class="widget">
+                <h3 class="widget-title"><i class="fa-solid fa-video"></i> Flower Video</h3>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2hgrhg8FVZ0?si=MOVWOtIP46bsRPSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bloompedia. All Rights Reserved.</p>
+        <p>Your Guide to the Wonderful World of Flowers. <strong>BLOOMPEDIA</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
